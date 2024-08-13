@@ -25,7 +25,7 @@ A React application for managing and customizing widgets in a dashboard. Users c
 
 ```bash
 git clone https://github.com/sarman12/AccuKnox_assesment.git
-cd accknux_assesment
+cd AccuKnox_assesment
 npm install
 npm run dev
 ```
