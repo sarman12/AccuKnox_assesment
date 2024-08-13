@@ -26,7 +26,6 @@ function Dashboard() {
   const [newWidgetName2, setNewWidgetName2] = useState('');
   
 
-  
 
   const handleAddWidget = () => {
     if (!selectedCategory) return;
@@ -117,7 +116,11 @@ function Dashboard() {
                         {widget.name === 'cloud Accounts' && <Circle1 />}
                         {widget.name === 'cloud Account Risk Assessment' && <Circle />}
                         {widget.name !== 'cloud Accounts' && widget.name !== 'cloud Account Risk Assessment' && (
-                        <FontAwesomeIcon icon={faIndustry} className="fa_industry"/>)}
+                          <>
+                        <FontAwesomeIcon icon={faIndustry} className="fa_industry"/>
+                        <p>No data available</p>
+                        </>
+                        )}
                         <BiX className="fa_cross" onClick={() => handleRemoveWidget(key, index)}/>
                     </div>
                   ))}
