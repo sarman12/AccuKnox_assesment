@@ -27,6 +27,7 @@ A React application for managing and customizing widgets in a dashboard. Users c
 git clone https://github.com/sarman12/accknux_assesment.git
 cd accknux_assesment
 npm install
+npm run dev
 ```
 
 ### Notes:
